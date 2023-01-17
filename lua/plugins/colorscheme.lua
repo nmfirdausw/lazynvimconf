@@ -9,26 +9,27 @@ return {
   --     }) vim.cmd("colorscheme no-clown-fiesta")
   --   end
   -- },
-  -- {
-  --   "rebelot/kanagawa.nvim",
-  --   lazy = false,
-  --   priority = 1000,
-  --   config = function ()
-  --     require("kanagawa").setup({
-  --       transparent = true,
-  --     })
-  --     vim.cmd("colorscheme kanagawa")
-  --   end
-  -- },
   {
-    "folke/tokyonight.nvim",
+    "rebelot/kanagawa.nvim",
     lazy = false,
     priority = 1000,
     config = function ()
-      require("tokyonight").setup({
+      require("kanagawa").setup({
         transparent = true,
+        theme = "dark",
       })
-      vim.cmd("colorscheme tokyonight-moon")
+      vim.cmd("colorscheme kanagawa")
     end
   },
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function ()
+  --     require("tokyonight").setup({
+  --       transparent = true,
+  --     })
+  --     vim.cmd("colorscheme tokyonight-moon")
+  --   end
+  -- },
 }

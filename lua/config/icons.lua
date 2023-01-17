@@ -18,6 +18,7 @@ nik.icons = {
     Untracked = "",
   },
   kinds = {
+    NONE = "",
     Array = " ",
     Boolean = " ",
     Class = " ",

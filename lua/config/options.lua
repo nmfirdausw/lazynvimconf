@@ -1,7 +1,7 @@
 local opt = {
   backspace = vim.opt.backspace + { "nostop" },
   clipboard = "unnamedplus",
-  -- cmdheight = 0,
+  cmdheight = 0,
   completeopt = { "menu", "menuone", "noselect" },
   confirm = true,
   copyindent = true,
