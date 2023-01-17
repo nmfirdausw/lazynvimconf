@@ -1,0 +1,5 @@
+require "config.options"
+require "utils"
+require "config.icons"
+require "config.lazy"
+require "config.keymaps"
